@@ -44,17 +44,11 @@ euclidean(100, 1000)
     ## [1] 100
 
 ``` r
-#> [1] 100
-
 # Example 2: Dijkstra shortest path
 dijkstra(wiki_graph, 1)
 ```
 
     ## [1]  0  7  9 20 20 11
-
-``` r
-#> [1] 0 7 9 20 26 11
-```
 
 ## License
 

@@ -38,11 +38,9 @@ library(lab3pkg)
 
 # Example 1: Euclidean algorithm (GCD)
 euclidean(100, 1000)
-#> [1] 100
 
 # Example 2: Dijkstra shortest path
 dijkstra(wiki_graph, 1)
-#> [1] 0 7 9 20 26 11
 ```
 
 ## License
