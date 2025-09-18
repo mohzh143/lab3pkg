@@ -5,7 +5,7 @@
 \alias{wiki_graph}
 \title{Weighted edge list from Wikipedia example}
 \format{
-A data frame with columns:
+A data frame with three columns:
 \describe{
   \item{v1}{From node (numeric)}
   \item{v2}{To node (numeric)}
@@ -13,10 +13,14 @@ A data frame with columns:
 }
 }
 \usage{
-wiki_graph
+data(wiki_graph)
 }
 \description{
-Weighted edge list from Wikipedia example
+A small weighted directed graph used in Dijkstra examples.
+}
+\examples{
+data(wiki_graph)
+head(wiki_graph)
 }
 \references{
 \url{https://en.wikipedia.org/wiki/Dijkstra's_algorithm}

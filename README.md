@@ -37,6 +37,8 @@ Here are some basic examples of how to use functions from **lab3pkg**:
 ``` r
 library(lab3pkg)
 
+data("wiki_graph", package = "lab3pkg")
+
 # Example 1: Euclidean algorithm (GCD)
 euclidean(100, 1000)
 ```
