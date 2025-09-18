@@ -4,7 +4,7 @@ Title: Algorithms for Lab 3: Euclidean GCD and Dijkstra Shortest Paths
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Mohan", "Zhang",
+      given = "Mohan", family = "Zhang",
       email = "mohzh143@student.liu.se",
       role = c("aut", "cre")
     )
