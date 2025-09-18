@@ -1,24 +1,26 @@
 Package: lab3pkg
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Algorithms for Lab 3: Euclidean GCD and Dijkstra Shortest Paths
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Mohan", "Zhang",
+      email = "mohzh143@student.liu.se",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
+Description: Educational package for Advanced R Lab 3. Implements
+    'euclidean(a, b)' for the greatest common divisor (Euclidean algorithm)
+    and 'dijkstra(graph, init_node)' for single-source shortest paths on
+    non-negative weighted graphs. Includes the 'wiki_graph' example dataset
+    and tests.
 License: MIT + file LICENSE
 Encoding: UTF-8
-LazyData: true
-URL: https://github.com/mohzh143/lab3pkg
+URL: https://github.com/mohzh143/lab3pkg, https://mohzh143.github.io/lab3pkg/
 BugReports: https://github.com/mohzh143/lab3pkg/issues
 RoxygenNote: 7.3.2
 Depends: 
-    R (>= 3.5)
+    R (>= 4.0)
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
